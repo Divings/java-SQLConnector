@@ -7,7 +7,6 @@
 # 始め方
 リポジトリをクローンします:
 
-```bash
 git clone https://github.com/your-username/your-repo.git
 
 お好みのJava IDEでプロジェクトを開きます。
