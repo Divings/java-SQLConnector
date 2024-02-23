@@ -7,8 +7,6 @@
 # 始め方
 リポジトリをクローンします:
 
-git clone https://github.com/your-username/your-repo.git
-
 お好みのJava IDEでプロジェクトを開きます。
 
 コード内の必要な設定を行います。
