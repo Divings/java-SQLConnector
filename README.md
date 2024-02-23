@@ -2,12 +2,12 @@
 
 ## はじめに
 このプロジェクトは、JavaでMySQLデータベースにアクセスするためのコネクタクラスを提供します。コードには基本的なトランザクション管理やテーブル作成の機能が含まれています。
+(このコードは特定の用途向けに構築されています)
 
 # 始め方
 リポジトリをクローンします:
 
 ```bash
-Copy code
 git clone https://github.com/your-username/your-repo.git
 
 お好みのJava IDEでプロジェクトを開きます。
@@ -18,7 +18,7 @@ git clone https://github.com/your-username/your-repo.git
 Javaコードを使用する手順について説明します。例として、SQLiteConnectorクラスの接続やトランザクション処理の使用例を挙げています。
 
 java
-Copy code
+
 // SQLiteConnectorクラスの使用例
 Connection connection = SQLiteConnector.connect();
 
@@ -29,8 +29,6 @@ SQLiteConnector.disconnect();
 
 依存関係
 このプロジェクトでは、MySQL Connector/Jが必要です。
-
-MySQL Connector/J: MySQL Connector/Jへのリンク
 
 ライセンス
 このプロジェクトはMIT LICENSE のもとでライセンスされています。詳細については LICENSE ファイルを参照してください。
